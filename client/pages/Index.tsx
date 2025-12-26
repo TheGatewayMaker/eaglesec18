@@ -148,7 +148,7 @@ export default function Home() {
                   Elite Bodyguards
                 </h3>
                 <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
-                  SSG trained specialists for high-level protection
+                  Our SSG-trained specialists deliver executive-level protection with tactical expertise and discretion. Every bodyguard undergoes rigorous military training and psychological evaluation to provide the highest standard of personal security for VIP clients and high-profile individuals.
                 </p>
               </div>
             </div>
