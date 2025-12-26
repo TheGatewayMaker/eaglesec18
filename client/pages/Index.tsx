@@ -91,14 +91,14 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             {/* Static Guards Card */}
             <div
-              className="bg-card text-foreground p-0 rounded-3xl overflow-hidden relative group border border-border animate-slide-in-from-bottom hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+              className="bg-card text-foreground p-0 overflow-hidden relative group border border-border animate-slide-in-from-bottom transition-all duration-300"
               style={{ animationDelay: "100ms" }}
             >
               <div className="relative overflow-hidden h-64 md:h-80">
                 <img
                   src="https://images.pexels.com/photos/29656069/pexels-photo-29656069.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Professional security guards with tactical gear"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-full object-cover transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <Link
@@ -124,14 +124,14 @@ export default function Home() {
 
             {/* Bodyguards Card */}
             <div
-              className="bg-card text-foreground p-0 rounded-3xl overflow-hidden relative group border border-border animate-slide-in-from-bottom hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+              className="bg-card text-foreground p-0 overflow-hidden relative group border border-border animate-slide-in-from-bottom transition-all duration-300"
               style={{ animationDelay: "200ms" }}
             >
               <div className="relative overflow-hidden h-64 md:h-80">
                 <img
                   src="https://images.pexels.com/photos/27517900/pexels-photo-27517900.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Elite bodyguard protection services"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-full object-cover transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <Link
@@ -156,14 +156,14 @@ export default function Home() {
 
             {/* Mobile Escorts Card */}
             <div
-              className="bg-card text-foreground p-0 rounded-3xl overflow-hidden relative group border border-border animate-slide-in-from-bottom hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+              className="bg-card text-foreground p-0 overflow-hidden relative group border border-border animate-slide-in-from-bottom transition-all duration-300"
               style={{ animationDelay: "300ms" }}
             >
               <div className="relative overflow-hidden h-64 md:h-80">
                 <img
                   src="https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Professional mobile escort security services"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-full object-cover transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <Link
@@ -188,14 +188,14 @@ export default function Home() {
 
             {/* Security Equipment Card */}
             <div
-              className="bg-card text-foreground p-0 rounded-3xl overflow-hidden relative group border border-border animate-slide-in-from-bottom hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+              className="bg-card text-foreground p-0 overflow-hidden relative group border border-border animate-slide-in-from-bottom transition-all duration-300"
               style={{ animationDelay: "400ms" }}
             >
               <div className="relative overflow-hidden h-64 md:h-80">
                 <img
                   src="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Advanced security equipment and surveillance systems"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-full object-cover transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <Link
