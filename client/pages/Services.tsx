@@ -19,50 +19,54 @@ export default function Services() {
       <section className="py-20 md:py-28 bg-white">
         <div className="container mx-auto px-6">
           {/* Static Security Guards */}
-          <div className="mb-20">
+          <div className="mb-20 pb-12 border-b border-slate-200">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
-                <div className="flex items-center gap-3 mb-4">
+                <div className="flex items-center gap-3 mb-6">
                   <Shield className="w-12 h-12 text-accent" />
-                  <h2 className="text-h2 font-bold text-primary">
+                  <h2 className="text-4xl font-black text-slate-900">
                     Static Security Guard Services
                   </h2>
                 </div>
-                <p className="text-foreground leading-relaxed mb-6 text-lg">
+                <p className="text-slate-700 leading-relaxed mb-8 text-lg font-bold">
                   Eagle Security Guards draws its main pool of manpower from
                   armed forces of Pakistan and imparts training to meet critical
                   security requirements reliably and efficiently.
                 </p>
-                <ul className="space-y-3">
+                <ul className="space-y-4">
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-foreground">
+                    <span className="text-slate-700 font-bold">
                       Comprehensive personal data screening and vetting process
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-foreground">
+                    <span className="text-slate-700 font-bold">
                       Database verification to ensure no blacklisted guards join
                       ranks
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-foreground">
+                    <span className="text-slate-700 font-bold">
                       Professional training in security protocols and procedures
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-foreground">
+                    <span className="text-slate-700 font-bold">
                       Reliable and efficient protection for premises
                     </span>
                   </li>
                 </ul>
               </div>
-              <div className="bg-gradient-to-br from-slate-50 to-slate-100 p-12 rounded-lg border border-border">
-                <div className="aspect-square bg-accent rounded-lg opacity-20"></div>
+              <div className="overflow-hidden rounded-xl shadow-lg h-96">
+                <img
+                  src="https://images.pexels.com/photos/30487150/pexels-photo-30487150.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Professional security guards in uniform"
+                  className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                />
               </div>
             </div>
           </div>
