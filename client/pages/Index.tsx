@@ -100,28 +100,35 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             {/* Static Guards - Large Featured Card */}
-            <div className="md:col-span-2 lg:col-span-1 bg-gradient-to-br from-slate-900 to-slate-800 text-white p-14 rounded-3xl overflow-hidden relative group hover:shadow-2xl transition-all duration-300">
-              <div className="relative z-10">
-                <Shield className="w-14 h-14 mb-8 text-accent" />
-                <h3 className="text-4xl font-black mb-6 leading-tight">
+            <div className="md:col-span-2 lg:col-span-1 bg-gradient-to-br from-slate-900 to-slate-800 text-white p-0 rounded-3xl overflow-hidden relative group hover:shadow-2xl transition-all duration-300">
+              <div className="relative overflow-hidden h-64 md:h-80">
+                <img
+                  src="https://images.pexels.com/photos/30487150/pexels-photo-30487150.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Professional security guards"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent"></div>
+              </div>
+              <div className="relative z-10 p-8 md:p-10">
+                <Shield className="w-12 h-12 mb-4 text-accent" />
+                <h3 className="text-3xl font-black mb-4 leading-tight">
                   Static Security Guards
                 </h3>
-                <p className="text-lg md:text-xl font-bold opacity-95 mb-8 leading-relaxed">
+                <p className="text-base md:text-lg font-bold opacity-90 mb-6 leading-relaxed">
                   Vetted, trained professionals providing reliable, disciplined
                   on-site protection for your premises
                 </p>
                 <Link
                   to="/services"
-                  className="inline-block text-accent font-black text-lg hover:opacity-70 transition"
+                  className="inline-block text-accent font-black text-lg hover:text-white transition-colors duration-300"
                 >
                   Learn More →
                 </Link>
               </div>
-              <div className="absolute -right-12 -bottom-12 w-40 h-40 bg-accent opacity-5 rounded-full"></div>
             </div>
 
             {/* Bodyguards Card */}
-            <div className="bg-sky-500 text-white p-14 rounded-3xl overflow-hidden relative group hover:shadow-2xl transition-all duration-300">
+            <div className="bg-sky-500 text-white p-14 rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="relative z-10">
                 <Users className="w-14 h-14 mb-8 text-white" />
                 <h3 className="text-3xl font-black mb-6">Elite Bodyguards</h3>
@@ -130,15 +137,16 @@ export default function Home() {
                 </p>
                 <Link
                   to="/services"
-                  className="inline-block text-white font-black text-lg hover:opacity-70 transition"
+                  className="inline-block text-white font-black text-lg hover:text-sky-100 transition-colors duration-300"
                 >
                   Learn More →
                 </Link>
               </div>
+              <div className="absolute -right-12 -bottom-12 w-40 h-40 bg-white opacity-5 group-hover:opacity-10 rounded-full transition-all duration-300"></div>
             </div>
 
             {/* Mobile Escorts Card */}
-            <div className="bg-amber-600 text-white p-14 rounded-3xl overflow-hidden relative group hover:shadow-2xl transition-all duration-300">
+            <div className="bg-amber-600 text-white p-14 rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="relative z-10">
                 <Truck className="w-14 h-14 mb-8 text-white" />
                 <h3 className="text-3xl font-black mb-6">Mobile Escorts</h3>
@@ -147,15 +155,16 @@ export default function Home() {
                 </p>
                 <Link
                   to="/services"
-                  className="inline-block text-white font-black text-lg hover:opacity-70 transition"
+                  className="inline-block text-white font-black text-lg hover:text-amber-100 transition-colors duration-300"
                 >
                   Learn More →
                 </Link>
               </div>
+              <div className="absolute -right-12 -bottom-12 w-40 h-40 bg-white opacity-5 group-hover:opacity-10 rounded-full transition-all duration-300"></div>
             </div>
 
             {/* Security Equipment Card */}
-            <div className="bg-slate-600 text-white p-14 rounded-3xl overflow-hidden relative group hover:shadow-2xl transition-all duration-300">
+            <div className="bg-slate-600 text-white p-14 rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="relative z-10">
                 <Lock className="w-14 h-14 mb-8 text-accent" />
                 <h3 className="text-3xl font-black mb-6">Security Equipment</h3>
@@ -164,11 +173,12 @@ export default function Home() {
                 </p>
                 <Link
                   to="/services"
-                  className="inline-block text-accent font-black text-lg hover:opacity-70 transition"
+                  className="inline-block text-accent font-black text-lg hover:text-white transition-colors duration-300"
                 >
                   Learn More →
                 </Link>
               </div>
+              <div className="absolute -right-12 -bottom-12 w-40 h-40 bg-accent opacity-5 group-hover:opacity-10 rounded-full transition-all duration-300"></div>
             </div>
           </div>
         </div>
