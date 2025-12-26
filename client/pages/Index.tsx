@@ -92,69 +92,69 @@ export default function Home() {
       </section>
 
       {/* Core Services Overview */}
-      <section className="py-20 md:py-28 bg-white">
+      <section className="py-24 md:py-40 bg-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-h2 text-primary text-center mb-4 font-bold">
+          <h2 className="text-h2 text-primary text-center mb-5 font-black">
             Our Security Services
           </h2>
-          <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-lg">
+          <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-xl font-semibold">
             Comprehensive security solutions tailored to your specific needs
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             {/* Static Guards */}
-            <div className="bg-gradient-to-br from-slate-50 to-slate-100 p-8 rounded-lg border border-border hover:shadow-lg transition-shadow">
-              <Shield className="w-12 h-12 text-accent mb-4" />
-              <h3 className="text-h3 font-bold text-primary mb-3">
+            <div className="bg-gradient-to-br from-slate-50 to-slate-100 p-10 rounded-xl border border-border shadow-md hover:shadow-2xl transition-all duration-300 hover:scale-105">
+              <Shield className="w-14 h-14 text-accent mb-6" />
+              <h3 className="text-h3 font-black text-primary mb-4">
                 Static Security Guards
               </h3>
-              <p className="text-foreground leading-relaxed">
+              <p className="text-lg text-foreground leading-relaxed font-semibold">
                 Comprehensive personal data screening ensures only vetted,
                 trained guards join our ranks.
               </p>
             </div>
 
             {/* Bodyguards */}
-            <div className="bg-gradient-to-br from-slate-50 to-slate-100 p-8 rounded-lg border border-border hover:shadow-lg transition-shadow">
-              <Users className="w-12 h-12 text-accent mb-4" />
-              <h3 className="text-h3 font-bold text-primary mb-3">
+            <div className="bg-gradient-to-br from-slate-50 to-slate-100 p-10 rounded-xl border border-border shadow-md hover:shadow-2xl transition-all duration-300 hover:scale-105">
+              <Users className="w-14 h-14 text-accent mb-6" />
+              <h3 className="text-h3 font-black text-primary mb-4">
                 Bodyguards
               </h3>
-              <p className="text-foreground leading-relaxed">
+              <p className="text-lg text-foreground leading-relaxed font-semibold">
                 Drawn from Special Service Group (SSG) of Pakistan Army. Cream
                 of handpicked men dedicated to difficult missions.
               </p>
             </div>
 
             {/* Mobile Escorts */}
-            <div className="bg-gradient-to-br from-slate-50 to-slate-100 p-8 rounded-lg border border-border hover:shadow-lg transition-shadow">
-              <Truck className="w-12 h-12 text-accent mb-4" />
-              <h3 className="text-h3 font-bold text-primary mb-3">
+            <div className="bg-gradient-to-br from-slate-50 to-slate-100 p-10 rounded-xl border border-border shadow-md hover:shadow-2xl transition-all duration-300 hover:scale-105">
+              <Truck className="w-14 h-14 text-accent mb-6" />
+              <h3 className="text-h3 font-black text-primary mb-4">
                 Mobile Escorts
               </h3>
-              <p className="text-foreground leading-relaxed">
+              <p className="text-lg text-foreground leading-relaxed font-semibold">
                 Fully trained teams to protect personnel during movement with
                 defensive measures for any eventuality.
               </p>
             </div>
 
             {/* Security Equipment */}
-            <div className="bg-gradient-to-br from-slate-50 to-slate-100 p-8 rounded-lg border border-border hover:shadow-lg transition-shadow">
-              <Lock className="w-12 h-12 text-accent mb-4" />
-              <h3 className="text-h3 font-bold text-primary mb-3">
+            <div className="bg-gradient-to-br from-slate-50 to-slate-100 p-10 rounded-xl border border-border shadow-md hover:shadow-2xl transition-all duration-300 hover:scale-105">
+              <Lock className="w-14 h-14 text-accent mb-6" />
+              <h3 className="text-h3 font-black text-primary mb-4">
                 Security Equipment
               </h3>
-              <p className="text-foreground leading-relaxed">
+              <p className="text-lg text-foreground leading-relaxed font-semibold">
                 CCTV cameras, walkthrough gates, wireless comm devices, and
                 barbed wire protection solutions.
               </p>
             </div>
           </div>
 
-          <div className="text-center mt-12">
+          <div className="text-center">
             <Link
               to="/services"
-              className="bg-primary text-primary-foreground px-8 py-4 font-bold text-lg rounded-lg hover:opacity-90 transition-opacity inline-block"
+              className="bg-primary text-primary-foreground px-10 py-5 font-black text-lg rounded-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
             >
               View All Services
             </Link>
