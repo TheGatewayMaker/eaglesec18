@@ -57,7 +57,7 @@ export default function Home() {
                 alt="Professional security personnel in uniform - Military training"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent"></div>
             </div>
           </div>
         </div>
