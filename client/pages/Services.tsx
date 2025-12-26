@@ -176,39 +176,43 @@ export default function Services() {
           {/* Security Equipment */}
           <div className="mb-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-              <div className="bg-gradient-to-br from-slate-50 to-slate-100 p-12 rounded-lg border border-border order-2 md:order-1">
-                <div className="aspect-square bg-accent rounded-lg opacity-20"></div>
+              <div className="overflow-hidden rounded-xl shadow-lg h-96 order-2 md:order-1">
+                <img
+                  src="https://images.pexels.com/photos/35138748/pexels-photo-35138748.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Professional security equipment and surveillance"
+                  className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                />
               </div>
               <div className="order-1 md:order-2">
-                <div className="flex items-center gap-3 mb-4">
+                <div className="flex items-center gap-3 mb-6">
                   <Lock className="w-12 h-12 text-accent" />
-                  <h2 className="text-h2 font-bold text-primary">
+                  <h2 className="text-4xl font-black text-slate-900">
                     Security Equipment
                   </h2>
                 </div>
-                <p className="text-foreground leading-relaxed mb-6 text-lg">
+                <p className="text-slate-700 leading-relaxed mb-8 text-lg font-bold">
                   ESG specialises in providing all security equipment needed to
                   safeguard your premises with cutting-edge technology and
                   proven solutions.
                 </p>
-                <ul className="space-y-3">
+                <ul className="space-y-4">
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-foreground">CCTV Cameras</span>
+                    <span className="text-slate-700 font-bold">CCTV Cameras</span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-foreground">Walkthrough Gates</span>
+                    <span className="text-slate-700 font-bold">Walkthrough Gates</span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-foreground">
+                    <span className="text-slate-700 font-bold">
                       Wireless Communication Devices
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-foreground">
+                    <span className="text-slate-700 font-bold">
                       Barbed Wire Protection
                     </span>
                   </li>
