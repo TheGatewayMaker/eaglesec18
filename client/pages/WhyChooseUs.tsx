@@ -18,16 +18,16 @@ export default function WhyChooseUs() {
       </section>
 
       {/* Key Advantages */}
-      <section className="py-20 md:py-28 bg-white">
+      <section className="py-20 md:py-28 bg-gradient-to-b from-white to-slate-50">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             {/* Military Excellence */}
-            <div className="p-8 rounded-lg border border-border hover:shadow-lg transition-shadow">
-              <Award className="w-12 h-12 text-accent mb-4" />
-              <h3 className="text-h3 font-bold text-primary mb-4">
+            <div className="p-10 rounded-xl border-2 border-slate-200 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
+              <Award className="w-12 h-12 text-accent mb-6" />
+              <h3 className="text-2xl font-black text-slate-900 mb-6">
                 Military Excellence
               </h3>
-              <p className="text-foreground leading-relaxed">
+              <p className="text-slate-700 leading-relaxed font-bold">
                 Our personnel are drawn from the armed forces of Pakistan,
                 bringing professional military training, discipline, and
                 experience.
@@ -35,12 +35,12 @@ export default function WhyChooseUs() {
             </div>
 
             {/* Thorough Vetting */}
-            <div className="p-8 rounded-lg border border-border hover:shadow-lg transition-shadow">
-              <Shield className="w-12 h-12 text-accent mb-4" />
-              <h3 className="text-h3 font-bold text-primary mb-4">
+            <div className="p-10 rounded-xl border-2 border-slate-200 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
+              <Shield className="w-12 h-12 text-accent mb-6" />
+              <h3 className="text-2xl font-black text-slate-900 mb-6">
                 Thorough Vetting
               </h3>
-              <p className="text-foreground leading-relaxed">
+              <p className="text-slate-700 leading-relaxed font-bold">
                 Comprehensive personal data screening ensures only trusted,
                 verified individuals are part of our team. No compromises on
                 integrity.
@@ -48,48 +48,48 @@ export default function WhyChooseUs() {
             </div>
 
             {/* Elite Special Forces */}
-            <div className="p-8 rounded-lg border border-border hover:shadow-lg transition-shadow">
-              <Users className="w-12 h-12 text-accent mb-4" />
-              <h3 className="text-h3 font-bold text-primary mb-4">
+            <div className="p-10 rounded-xl border-2 border-slate-200 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
+              <Users className="w-12 h-12 text-accent mb-6" />
+              <h3 className="text-2xl font-black text-slate-900 mb-6">
                 Elite Special Forces
               </h3>
-              <p className="text-foreground leading-relaxed">
+              <p className="text-slate-700 leading-relaxed font-bold">
                 Bodyguards drawn from Special Service Group (SSG) - the cream of
                 Pakistan's most elite military units.
               </p>
             </div>
 
             {/* Professional Training */}
-            <div className="p-8 rounded-lg border border-border hover:shadow-lg transition-shadow">
-              <Zap className="w-12 h-12 text-accent mb-4" />
-              <h3 className="text-h3 font-bold text-primary mb-4">
+            <div className="p-10 rounded-xl border-2 border-slate-200 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
+              <Zap className="w-12 h-12 text-accent mb-6" />
+              <h3 className="text-2xl font-black text-slate-900 mb-6">
                 Professional Training
               </h3>
-              <p className="text-foreground leading-relaxed">
+              <p className="text-slate-700 leading-relaxed font-bold">
                 Continuous training in modern security protocols, threat
                 assessment, and emergency response procedures.
               </p>
             </div>
 
             {/* Comprehensive Solutions */}
-            <div className="p-8 rounded-lg border border-border hover:shadow-lg transition-shadow">
-              <CheckCircle2 className="w-12 h-12 text-accent mb-4" />
-              <h3 className="text-h3 font-bold text-primary mb-4">
+            <div className="p-10 rounded-xl border-2 border-slate-200 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
+              <CheckCircle2 className="w-12 h-12 text-accent mb-6" />
+              <h3 className="text-2xl font-black text-slate-900 mb-6">
                 Comprehensive Solutions
               </h3>
-              <p className="text-foreground leading-relaxed">
+              <p className="text-slate-700 leading-relaxed font-bold">
                 From personnel protection to cutting-edge security equipment, we
                 provide complete coverage for every scenario.
               </p>
             </div>
 
             {/* Nationwide Presence */}
-            <div className="p-8 rounded-lg border border-border hover:shadow-lg transition-shadow">
-              <Star className="w-12 h-12 text-accent mb-4" />
-              <h3 className="text-h3 font-bold text-primary mb-4">
+            <div className="p-10 rounded-xl border-2 border-slate-200 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
+              <Star className="w-12 h-12 text-accent mb-6" />
+              <h3 className="text-2xl font-black text-slate-900 mb-6">
                 Nationwide Presence
               </h3>
-              <p className="text-foreground leading-relaxed">
+              <p className="text-slate-700 leading-relaxed font-bold">
                 Multiple offices across Pakistan ensure quick response and
                 consistent service quality wherever you need us.
               </p>
