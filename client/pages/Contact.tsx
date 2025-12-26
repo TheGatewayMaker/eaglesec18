@@ -38,51 +38,51 @@ export default function Contact() {
   };
 
   return (
-    <div className="bg-white">
+    <div className="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white py-24 md:py-32">
+      <section className="bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 text-white py-24 md:py-32">
         <div className="container mx-auto px-6">
-          <h1 className="text-5xl md:text-6xl font-black mb-6">Get in Touch</h1>
-          <p className="text-xl opacity-90 max-w-2xl font-bold leading-relaxed">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black mb-6">Get in Touch</h1>
+          <p className="text-base sm:text-lg md:text-xl opacity-90 max-w-2xl font-bold leading-relaxed">
             Contact our security experts for a consultation or inquiries
           </p>
         </div>
       </section>
 
       {/* Contact Information and Form */}
-      <section className="py-20 md:py-28 bg-gradient-to-b from-white to-slate-50">
+      <section className="py-20 md:py-28 bg-gradient-to-b from-slate-900 to-slate-850">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
             {/* Contact Info Cards */}
-            <div className="bg-white p-10 rounded-xl border-2 border-slate-200 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
+            <div className="bg-gradient-to-br from-slate-800 to-slate-700 p-8 md:p-10 rounded-xl border-2 border-slate-600 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
               <MapPin className="w-10 h-10 text-accent mb-6" />
-              <h3 className="text-2xl font-black text-slate-900 mb-4">
+              <h3 className="text-2xl font-black text-white mb-4">
                 Head Office
               </h3>
-              <p className="text-slate-700 font-bold mb-2">Islamabad</p>
-              <p className="text-slate-600 font-bold">
+              <p className="text-gray-300 font-bold mb-2">Islamabad</p>
+              <p className="text-gray-400 font-bold">
                 Central coordination hub for all operations
               </p>
             </div>
 
-            <div className="bg-white p-10 rounded-xl border-2 border-slate-200 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
+            <div className="bg-gradient-to-br from-slate-800 to-slate-700 p-8 md:p-10 rounded-xl border-2 border-slate-600 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
               <Phone className="w-10 h-10 text-accent mb-6" />
-              <h3 className="text-2xl font-black text-slate-900 mb-4">Phone</h3>
-              <p className="text-slate-700 font-bold mb-2">
+              <h3 className="text-2xl font-black text-white mb-4">Phone</h3>
+              <p className="text-gray-300 font-bold mb-2">
                 For inquiries and quotes
               </p>
-              <p className="text-slate-600 font-bold">
+              <p className="text-gray-400 font-bold">
                 Contact through our form or visit office
               </p>
             </div>
 
-            <div className="bg-white p-10 rounded-xl border-2 border-slate-200 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
+            <div className="bg-gradient-to-br from-slate-800 to-slate-700 p-8 md:p-10 rounded-xl border-2 border-slate-600 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
               <Clock className="w-10 h-10 text-accent mb-6" />
-              <h3 className="text-2xl font-black text-slate-900 mb-4">
+              <h3 className="text-2xl font-black text-white mb-4">
                 Response Time
               </h3>
-              <p className="text-slate-700 font-bold mb-2">Quick turnaround</p>
-              <p className="text-slate-600 font-bold">
+              <p className="text-gray-300 font-bold mb-2">Quick turnaround</p>
+              <p className="text-gray-400 font-bold">
                 We prioritize all security consultations
               </p>
             </div>
@@ -90,7 +90,7 @@ export default function Contact() {
 
           {/* Contact Form */}
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-4xl font-black text-slate-900 mb-10">
+            <h2 className="text-3xl md:text-4xl font-black text-white mb-10">
               Send us a Message
             </h2>
 
