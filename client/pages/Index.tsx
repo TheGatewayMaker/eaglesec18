@@ -150,7 +150,7 @@ export default function Home() {
             </div>
 
             {/* Security Equipment Card */}
-            <div className="bg-slate-700 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+            <div className="bg-slate-700 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 animate-slide-in-from-bottom" style={{ animationDelay: "400ms" }}>
               <div className="relative z-10">
                 <Lock className="w-10 md:w-14 h-10 md:h-14 mb-6 md:mb-8 text-accent" />
                 <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">
