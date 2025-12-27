@@ -218,19 +218,19 @@ export default function Home() {
               backgroundPosition: "center",
             }}
           ></div>
-          <div className="absolute inset-0 bg-gradient-to-r from-background/98 via-background/90 to-background/50"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-background/99 via-background/95 to-background/70"></div>
         </div>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center md:text-left">
-            <h2 className="text-2xl sm:text-3xl md:text-5xl font-black leading-tight mb-4 sm:mb-6 md:mb-8">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl font-black leading-tight mb-4 sm:mb-6 md:mb-8 text-foreground">
               Why Professional Security Matters
             </h2>
-            <p className="text-sm sm:text-base md:text-xl font-bold opacity-95 leading-relaxed mb-4 sm:mb-6 text-foreground">
+            <p className="text-sm sm:text-base md:text-xl font-black leading-relaxed mb-4 sm:mb-6 text-foreground">
               In a world where security has become critical, a personalized
               approach is key to ensuring you get the protection you deserve.
             </p>
-            <p className="text-sm sm:text-base md:text-lg font-bold opacity-90 leading-relaxed text-foreground">
+            <p className="text-sm sm:text-base md:text-lg font-black leading-relaxed text-foreground">
               From static guards and elite bodyguards to mobile escorts and
               advanced security equipment, we provide comprehensive, tailored
               solutions for every security need backed by decades of expertise.
@@ -241,59 +241,89 @@ export default function Home() {
 
       {/* Statistics Section */}
       <section className="py-12 sm:py-16 md:py-24 bg-gradient-to-b from-background to-background/95 transition-colors duration-300">
-        <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+        <div className="container mx-auto px-0 sm:px-6 w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 md:gap-6">
             {/* Experience Card */}
-            <div className="bg-card border border-border text-foreground p-8 md:p-12 text-center transition-all duration-300 hover:shadow-lg hover:border-accent/50 hover:bg-blue-50 dark:hover:bg-blue-950/40">
-              <div className="mb-8 md:mb-10">
+            <div className="aspect-square bg-card border border-border text-foreground p-6 md:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-black group cursor-pointer">
+              <div className="mb-4 md:mb-6 flex items-center justify-center h-16 md:h-20">
                 <AnimatedCounter
                   targetNumber={30}
                   suffix="+"
                   duration={2000}
-                  className="text-5xl md:text-7xl font-black text-accent"
+                  className="text-5xl md:text-6xl font-black group-hover:text-white transition-colors duration-300"
+                  style={{
+                    color: "var(--accent)",
+                  }}
                 />
               </div>
-              <h3 className="text-xl md:text-2xl font-black text-foreground mb-3">
+              <h3 className="text-lg md:text-xl font-black mb-2 group-hover:text-white transition-colors duration-300">
                 Years of Experience
               </h3>
-              <p className="text-sm md:text-base font-bold text-muted-foreground">
+              <p className="text-xs md:text-sm font-black group-hover:text-white transition-colors duration-300">
                 Protecting businesses since 1992
               </p>
             </div>
 
             {/* Personnel Card */}
-            <div className="bg-card border border-border text-foreground p-8 md:p-12 text-center transition-all duration-300 hover:shadow-lg hover:border-accent/50 hover:bg-blue-50 dark:hover:bg-blue-950/40">
-              <div className="mb-8 md:mb-10">
+            <div className="aspect-square bg-card border border-border text-foreground p-6 md:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-black group cursor-pointer">
+              <div className="mb-4 md:mb-6 flex items-center justify-center h-16 md:h-20">
                 <AnimatedCounter
                   targetNumber={500}
                   suffix="+"
                   duration={2000}
-                  className="text-5xl md:text-7xl font-black text-accent"
+                  className="text-5xl md:text-6xl font-black group-hover:text-white transition-colors duration-300"
+                  style={{
+                    color: "var(--accent)",
+                  }}
                 />
               </div>
-              <h3 className="text-xl md:text-2xl font-black text-foreground mb-3">
+              <h3 className="text-lg md:text-xl font-black mb-2 group-hover:text-white transition-colors duration-300">
                 Trained Personnel
               </h3>
-              <p className="text-sm md:text-base font-bold text-muted-foreground">
+              <p className="text-xs md:text-sm font-black group-hover:text-white transition-colors duration-300">
                 Elite security professionals
               </p>
             </div>
 
             {/* Clients Card */}
-            <div className="bg-card border border-border text-foreground p-8 md:p-12 text-center transition-all duration-300 hover:shadow-lg hover:border-accent/50 hover:bg-blue-50 dark:hover:bg-blue-950/40">
-              <div className="mb-8 md:mb-10">
+            <div className="aspect-square bg-card border border-border text-foreground p-6 md:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-black group cursor-pointer">
+              <div className="mb-4 md:mb-6 flex items-center justify-center h-16 md:h-20">
                 <AnimatedCounter
                   targetNumber={100}
                   suffix="+"
                   duration={2000}
-                  className="text-5xl md:text-7xl font-black text-accent"
+                  className="text-5xl md:text-6xl font-black group-hover:text-white transition-colors duration-300"
+                  style={{
+                    color: "var(--accent)",
+                  }}
                 />
               </div>
-              <h3 className="text-xl md:text-2xl font-black text-foreground mb-3">
+              <h3 className="text-lg md:text-xl font-black mb-2 group-hover:text-white transition-colors duration-300">
                 Corporate Clients
               </h3>
-              <p className="text-sm md:text-base font-bold text-muted-foreground">
+              <p className="text-xs md:text-sm font-black group-hover:text-white transition-colors duration-300">
                 Trusted by leading organizations
+              </p>
+            </div>
+
+            {/* Total Guards Deployed Card */}
+            <div className="aspect-square bg-card border border-border text-foreground p-6 md:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-black group cursor-pointer">
+              <div className="mb-4 md:mb-6 flex items-center justify-center h-16 md:h-20">
+                <AnimatedCounter
+                  targetNumber={1541}
+                  suffix="+"
+                  duration={2000}
+                  className="text-5xl md:text-6xl font-black group-hover:text-white transition-colors duration-300"
+                  style={{
+                    color: "var(--accent)",
+                  }}
+                />
+              </div>
+              <h3 className="text-lg md:text-xl font-black mb-2 group-hover:text-white transition-colors duration-300">
+                Total Guards Deployed
+              </h3>
+              <p className="text-xs md:text-sm font-black group-hover:text-white transition-colors duration-300">
+                Active security personnel across Pakistan
               </p>
             </div>
           </div>
@@ -302,9 +332,9 @@ export default function Home() {
 
       {/* Why Choose Us - Feature Grid */}
       <section className="py-12 sm:py-16 md:py-28 bg-gradient-to-b from-background/95 via-background to-background transition-colors duration-300">
-        <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
+        <div className="container mx-auto px-0 sm:px-6 w-full">
           {/* Section Title with Visual Styling */}
-          <div className="mb-12 sm:mb-16 md:mb-24">
+          <div className="mb-12 sm:mb-16 md:mb-24 px-4 sm:px-0">
             <div className="flex items-center gap-3 md:gap-4 mb-4 sm:mb-6">
               <div className="w-1 md:w-1.5 h-10 md:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
               <h2 className="text-3xl sm:text-4xl md:text-6xl font-black leading-tight">
@@ -316,7 +346,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 md:gap-6">
             {[
               {
                 title: "Military Excellence",
@@ -387,14 +417,14 @@ export default function Home() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
             {/* Head Office */}
-            <div className="bg-pk-green-main text-white p-8 md:p-12 transition-all duration-300 hover:shadow-lg hover:opacity-95">
-              <p className="text-white font-black text-xs uppercase tracking-widest mb-4 md:mb-6 opacity-90">
+            <div className="bg-gradient-to-br from-pk-green-main to-[#2d6b3d] text-white p-8 md:p-12 transition-all duration-300 hover:shadow-lg hover:bg-white hover:text-foreground group cursor-pointer border border-pk-green-main/20">
+              <p className="font-black text-xs uppercase tracking-widest mb-4 md:mb-6 group-hover:text-foreground transition-colors duration-300">
                 Head Office
               </p>
-              <h3 className="text-4xl md:text-6xl font-black mb-6 md:mb-8 leading-tight">
+              <h3 className="text-4xl md:text-6xl font-black mb-6 md:mb-8 leading-tight group-hover:text-foreground transition-colors duration-300">
                 Islamabad
               </h3>
-              <p className="text-base md:text-lg font-bold opacity-95 leading-relaxed">
+              <p className="text-base md:text-lg font-black group-hover:text-foreground transition-colors duration-300 leading-relaxed">
                 Central coordination and management hub
               </p>
             </div>
@@ -402,7 +432,7 @@ export default function Home() {
             {/* Regional Offices with City Buttons */}
             <div className="flex flex-col">
               <div className="mb-8 md:mb-10">
-                <p className="text-accent font-black text-xs uppercase tracking-widest mb-4 md:mb-6">
+                <p className="text-pk-green-main font-black text-xs uppercase tracking-widest mb-4 md:mb-6">
                   Regional Offices
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
@@ -416,22 +446,24 @@ export default function Home() {
                   ].map((city) => (
                     <div
                       key={city}
-                      className="bg-pk-green-main text-white px-4 md:px-5 py-2 md:py-2.5 text-center font-black text-xs md:text-sm leading-tight transition-all duration-300 hover:shadow-lg hover:opacity-90 rounded-none"
+                      className="bg-gradient-to-br from-pk-green-main to-[#2d6b3d] text-white px-4 md:px-5 py-2 md:py-2.5 text-center font-black text-xs md:text-sm leading-tight transition-all duration-300 hover:shadow-lg hover:bg-foreground group cursor-pointer border border-pk-green-main/20"
                     >
-                      {city}
+                      <span className="group-hover:text-white transition-colors duration-300">
+                        {city}
+                      </span>
                     </div>
                   ))}
                 </div>
               </div>
 
-              <div className="border border-border bg-card p-6 md:p-8 transition-all duration-300 hover:shadow-lg hover:border-accent/50">
-                <p className="text-muted-foreground font-black text-xs uppercase tracking-widest mb-4 md:mb-6">
+              <div className="border-2 border-pk-green-main/30 bg-gradient-to-br from-background to-background/80 p-6 md:p-8 transition-all duration-300 hover:shadow-lg hover:bg-pk-green-main cursor-pointer group">
+                <p className="text-pk-green-main font-black text-xs uppercase tracking-widest mb-4 md:mb-6 group-hover:text-white transition-colors duration-300">
                   National Coverage
                 </p>
-                <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">
+                <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6 text-foreground group-hover:text-white transition-colors duration-300">
                   Nationwide
                 </h3>
-                <div className="text-sm md:text-base font-bold text-muted-foreground space-y-2 md:space-y-3 leading-relaxed">
+                <div className="text-sm md:text-base font-black text-muted-foreground group-hover:text-white space-y-2 md:space-y-3 leading-relaxed transition-colors duration-300">
                   <p>✓ Including AJK</p>
                   <p>✓ Sub-offices in major cities</p>
                   <p>✓ 24/7 availability everywhere</p>
@@ -479,11 +511,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Company Wise Deployments Section */}
-      <CompanyWiseDeployments />
-
       {/* Guards By Region Section */}
       <GuardsByRegion />
+
+      {/* Company Wise Deployments Section */}
+      <CompanyWiseDeployments />
 
       {/* CTA Section */}
       <section className="py-14 md:py-28 bg-gradient-to-b from-background to-background/98 transition-colors duration-300">
