@@ -172,7 +172,7 @@ export default function Home() {
 
             {/* Service 3 - Mobile Escorts */}
             <div className="group overflow-hidden transition-all duration-300">
-              <div className="bg-card border border-border/50 overflow-hidden transition-all duration-300 h-full flex flex-col hover:border-accent/30">
+              <div className="bg-card border border-border/50 overflow-hidden transition-colors duration-300 h-full flex flex-col hover:border-accent/30">
                 <div className="relative overflow-hidden bg-gradient-to-br from-pk-green-main/10 to-accent/10 aspect-video">
                   <img
                     src="https://i.ibb.co/MxQRyL7x/Screenshot-2025-12-27-at-10-19-22-PM.png"
