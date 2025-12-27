@@ -13,13 +13,15 @@ export default function Services() {
     <div className="bg-background transition-colors duration-300">
       {/* Hero Section */}
       <section className="bg-background text-foreground py-16 sm:py-20 md:py-32 transition-colors duration-300">
-        <div className="container mx-auto px-4 sm:px-6">
+        <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
+          <div className="flex items-center gap-3 md:gap-4 mb-4 md:mb-6">
+            <div className="w-1 md:w-1.5 h-10 md:h-12 bg-accent rounded-full flex-shrink-0"></div>
+          </div>
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-black mb-4 sm:mb-6 text-foreground">
             Our Security Services
           </h1>
-          <p className="text-sm sm:text-base md:text-xl opacity-90 max-w-2xl font-bold leading-relaxed text-muted-foreground">
-            Comprehensive security solutions designed to protect what matters
-            most to you
+          <p className="text-sm md:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
+            Comprehensive security solutions designed to protect what matters most to you
           </p>
         </div>
       </section>
