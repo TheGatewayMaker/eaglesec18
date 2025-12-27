@@ -22,7 +22,7 @@ export default function Home() {
       }}
     >
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-background via-background to-background/95 text-foreground relative overflow-hidden py-16 sm:py-20 md:py-48 transition-colors duration-300">
+      <section className="bg-gradient-to-b from-background via-background to-background/95 text-foreground relative overflow-hidden py-12 sm:py-16 md:py-32 transition-colors duration-300">
         {/* Hero Background Image - Right Half Only */}
         <div
           className="hidden md:block absolute right-0 top-0 w-[calc(50%+2rem)] h-full -mr-6"
@@ -77,7 +77,7 @@ export default function Home() {
       </section>
 
       {/* Services Overview */}
-      <section className="py-16 sm:py-20 md:py-40 bg-gradient-to-b from-background via-background to-background/95 transition-colors duration-300">
+      <section className="py-12 sm:py-16 md:py-24 bg-gradient-to-b from-background via-background to-background/95 transition-colors duration-300">
         <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
           {/* Section Title with Visual Styling */}
           <div className="mb-12 sm:mb-16 md:mb-24">
@@ -205,7 +205,7 @@ export default function Home() {
       </section>
 
       {/* Value Proposition Section */}
-      <section className="relative overflow-hidden py-12 sm:py-16 md:py-32 border-y border-border transition-colors duration-300">
+      <section className="relative overflow-hidden py-8 sm:py-12 md:py-20 border-y border-border transition-colors duration-300">
         <div className="absolute inset-0">
           <div
             className="absolute inset-0"
@@ -238,7 +238,7 @@ export default function Home() {
       </section>
 
       {/* Statistics Section */}
-      <section className="py-16 sm:py-20 md:py-32 bg-gradient-to-b from-background to-background/95 transition-colors duration-300">
+      <section className="py-12 sm:py-16 md:py-24 bg-gradient-to-b from-background to-background/95 transition-colors duration-300">
         <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {/* Experience Card */}
@@ -299,7 +299,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us - Feature Grid */}
-      <section className="py-16 sm:py-20 md:py-40 bg-gradient-to-b from-background/95 via-background to-background transition-colors duration-300">
+      <section className="py-12 sm:py-16 md:py-28 bg-gradient-to-b from-background/95 via-background to-background transition-colors duration-300">
         <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
           {/* Section Title with Visual Styling */}
           <div className="mb-12 sm:mb-16 md:mb-24">
@@ -355,7 +355,7 @@ export default function Home() {
       </section>
 
       {/* Presence Section */}
-      <section className="py-16 sm:py-20 md:py-40 bg-gradient-to-b from-background to-background/95 transition-colors duration-300">
+      <section className="py-12 sm:py-16 md:py-28 bg-gradient-to-b from-background to-background/95 transition-colors duration-300">
         <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
           {/* Section Title with Visual Styling */}
           <div className="mb-12 sm:mb-16 md:mb-24">
@@ -428,7 +428,7 @@ export default function Home() {
       </section>
 
       {/* Trusted By Section */}
-      <section className="py-16 sm:py-20 md:py-32 bg-gradient-to-b from-background via-background/95 to-background transition-colors duration-300 border-y border-border">
+      <section className="py-10 sm:py-14 md:py-24 bg-gradient-to-b from-background via-background/95 to-background transition-colors duration-300 border-y border-border">
         <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
           <div className="mb-12 md:mb-16 text-center">
             <h2 className="text-3xl sm:text-4xl md:text-6xl font-black leading-tight mb-4 md:mb-6">
@@ -465,7 +465,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 md:py-40 bg-gradient-to-b from-background to-background/98 transition-colors duration-300">
+      <section className="py-14 md:py-28 bg-gradient-to-b from-background to-background/98 transition-colors duration-300">
         <div className="container mx-auto px-4 sm:px-6 text-center max-w-4xl">
           <h2 className="text-4xl md:text-6xl font-black mb-6 md:mb-8 leading-tight">
             Ready to Protect What Matters?
@@ -491,7 +491,7 @@ export default function Home() {
       </section>
 
       {/* Location Section with Google Maps */}
-      <section className="py-20 md:py-40 bg-gradient-to-b from-background/98 to-background transition-colors duration-300">
+      <section className="py-14 md:py-28 bg-gradient-to-b from-background/98 to-background transition-colors duration-300">
         <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
           <div className="mb-12 md:mb-16">
             <div className="flex items-center gap-3 md:gap-4 mb-4 md:mb-6">
