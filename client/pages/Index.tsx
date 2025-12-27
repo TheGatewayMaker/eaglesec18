@@ -4,10 +4,6 @@ import {
   Users,
   Truck,
   Lock,
-  CheckCircle2,
-  Zap,
-  Award,
-  Target,
   ArrowRight,
 } from "lucide-react";
 import AnimatedCounter from "@/components/AnimatedCounter";
