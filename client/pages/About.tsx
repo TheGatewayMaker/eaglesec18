@@ -90,7 +90,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div className="overflow-hidden rounded-2xl shadow-2xl h-80 md:h-96">
+            <div className="overflow-hidden rounded-2xl shadow-2xl h-56 sm:h-72 md:h-96">
               <img
                 src="https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1400"
                 alt="Elite security personnel in formation"
