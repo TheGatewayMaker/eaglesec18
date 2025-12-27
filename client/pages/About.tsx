@@ -215,60 +215,60 @@ export default function About() {
             </div>
 
             {/* Standards Section */}
-            <div className="bg-gradient-to-br from-accent/10 to-accent/5 p-10 md:p-12 rounded-2xl border border-accent/20">
-              <div className="mb-12 text-center md:text-left">
-                <h2 className="text-3xl md:text-4xl font-black text-foreground mb-3">
+            <div className="bg-gradient-to-br from-accent/10 to-accent/5 p-6 sm:p-8 md:p-12 rounded-2xl border border-accent/20">
+              <div className="mb-8 sm:mb-12 text-center md:text-left">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-foreground mb-2 sm:mb-3">
                   Uncompromising Standards
                 </h2>
-                <p className="text-base md:text-lg text-muted-foreground font-bold">
+                <p className="text-xs sm:text-sm md:text-lg text-muted-foreground font-bold">
                   Every member of the Eagle family adheres to these pillars of excellence
                 </p>
               </div>
 
-              <div className="space-y-5">
-                <div className="flex gap-5 p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
-                  <div className="flex items-center justify-center w-10 h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0">
+              <div className="space-y-4 sm:space-y-5">
+                <div className="flex gap-4 sm:gap-5 p-4 sm:p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
+                  <div className="flex items-center justify-center w-8 sm:w-10 h-8 sm:h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0 text-sm sm:text-base">
                     1
                   </div>
                   <div>
-                    <h4 className="text-lg font-black text-foreground mb-1">Absolute Integrity</h4>
-                    <p className="text-muted-foreground font-bold text-sm">
+                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-0.5 sm:mb-1">Absolute Integrity</h4>
+                    <p className="text-xs sm:text-sm text-muted-foreground font-bold">
                       Unwavering honesty in every interaction, every decision, and every service delivery.
                     </p>
                   </div>
                 </div>
 
-                <div className="flex gap-5 p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
-                  <div className="flex items-center justify-center w-10 h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0">
+                <div className="flex gap-4 sm:gap-5 p-4 sm:p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
+                  <div className="flex items-center justify-center w-8 sm:w-10 h-8 sm:h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0 text-sm sm:text-base">
                     2
                   </div>
                   <div>
-                    <h4 className="text-lg font-black text-foreground mb-1">Relentless Vigilance</h4>
-                    <p className="text-muted-foreground font-bold text-sm">
+                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-0.5 sm:mb-1">Relentless Vigilance</h4>
+                    <p className="text-xs sm:text-sm text-muted-foreground font-bold">
                       24/7 alert and responsive protection, never lowering our guard, ever.
                     </p>
                   </div>
                 </div>
 
-                <div className="flex gap-5 p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
-                  <div className="flex items-center justify-center w-10 h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0">
+                <div className="flex gap-4 sm:gap-5 p-4 sm:p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
+                  <div className="flex items-center justify-center w-8 sm:w-10 h-8 sm:h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0 text-sm sm:text-base">
                     3
                   </div>
                   <div>
-                    <h4 className="text-lg font-black text-foreground mb-1">Professional Excellence</h4>
-                    <p className="text-muted-foreground font-bold text-sm">
+                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-0.5 sm:mb-1">Professional Excellence</h4>
+                    <p className="text-xs sm:text-sm text-muted-foreground font-bold">
                       Continuous training, certification, and adherence to international security standards.
                     </p>
                   </div>
                 </div>
 
-                <div className="flex gap-5 p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
-                  <div className="flex items-center justify-center w-10 h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0">
+                <div className="flex gap-4 sm:gap-5 p-4 sm:p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
+                  <div className="flex items-center justify-center w-8 sm:w-10 h-8 sm:h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0 text-sm sm:text-base">
                     4
                   </div>
                   <div>
-                    <h4 className="text-lg font-black text-foreground mb-1">Client-Centric Service</h4>
-                    <p className="text-muted-foreground font-bold text-sm">
+                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-0.5 sm:mb-1">Client-Centric Service</h4>
+                    <p className="text-xs sm:text-sm text-muted-foreground font-bold">
                       Your security needs drive everything we do, customized solutions for every scenario.
                     </p>
                   </div>
