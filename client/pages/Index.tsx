@@ -178,7 +178,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50">
               <div className="relative overflow-hidden h-56 md:h-80">
                 <img
-                  src="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://i.ibb.co/1fHGWYGz/Screenshot-2025-12-27-at-10-20-06-PM.png"
                   alt="Advanced security equipment and surveillance systems"
                   className="w-full h-full object-cover"
                 />
