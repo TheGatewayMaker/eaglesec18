@@ -57,13 +57,13 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
                 <Link
                   to="/services"
-                  className="bg-accent text-accent-foreground px-8 md:px-12 py-4 md:py-5 font-black text-base md:text-lg text-center hover:shadow-xl transition-shadow duration-300 inline-block"
+                  className="bg-accent text-accent-foreground px-6 md:px-8 py-2.5 md:py-3 font-black text-sm md:text-base text-center hover:shadow-xl transition-shadow duration-300 inline-block rounded-none"
                 >
                   Explore Services
                 </Link>
                 <Link
                   to="/contact"
-                  className="border-2 border-accent text-accent px-8 md:px-12 py-4 md:py-5 font-black text-base md:text-lg text-center hover:bg-accent hover:text-accent-foreground transition-colors duration-300 inline-block"
+                  className="border-2 border-accent text-accent px-6 md:px-8 py-2.5 md:py-3 font-black text-sm md:text-base text-center hover:bg-accent hover:text-accent-foreground transition-colors duration-300 inline-block rounded-none"
                 >
                   Request Consultation
                 </Link>
