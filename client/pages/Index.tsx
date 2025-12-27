@@ -434,10 +434,10 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-black/50 group-hover:bg-black/55 transition-colors duration-300"></div>
                 <div className="absolute inset-0 flex flex-col justify-center items-center p-6 text-center">
-                  <h3 className="text-xl md:text-2xl font-black mb-3 text-white leading-tight transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-pk-green-main group-hover:to-[#2d6b3d] group-hover:bg-clip-text group-hover:text-transparent">
+                  <h3 className="text-xl md:text-2xl font-black mb-3 text-white leading-tight">
                     {item.title}
                   </h3>
-                  <p className="text-sm md:text-base font-bold text-white/95 leading-relaxed transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-pk-green-main group-hover:to-[#2d6b3d] group-hover:bg-clip-text group-hover:text-transparent">
+                  <p className="text-sm md:text-base font-bold text-white/95 leading-relaxed">
                     {item.desc}
                   </p>
                 </div>
