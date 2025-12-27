@@ -21,7 +21,7 @@ export default function Home() {
       }}
     >
       {/* Hero Section */}
-      <section className="bg-background text-foreground relative overflow-hidden py-24 md:py-40 transition-colors duration-300 animate-fade-in">
+      <section className="bg-background text-foreground relative overflow-hidden py-16 sm:py-20 md:py-40 transition-colors duration-300 animate-fade-in">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 right-20 w-80 h-80 bg-accent rounded-full blur-3xl"></div>
         </div>
@@ -39,32 +39,32 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent"></div>
         </div>
 
-        <div className="container mx-auto px-6 relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
+        <div className="container mx-auto px-4 sm:px-6 relative z-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
             {/* Left Content */}
             <div>
-              <p className="text-sm font-black text-accent mb-6 uppercase tracking-widest">
+              <p className="text-xs sm:text-sm font-black text-accent mb-4 sm:mb-6 uppercase tracking-widest">
                 Professional Security Since 1992
               </p>
-              <h1 className="text-4xl sm:text-5xl md:text-7xl font-black text-foreground mb-8 leading-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-7xl font-black text-foreground mb-6 sm:mb-8 leading-tight">
                 Elite Security Services For Your Peace of Mind
               </h1>
-              <p className="text-base sm:text-lg md:text-xl text-muted-foreground font-bold mb-12 leading-relaxed">
+              <p className="text-sm sm:text-base md:text-xl text-muted-foreground font-bold mb-8 sm:mb-12 leading-relaxed">
                 Drawn from the armed forces of Pakistan, our personnel deliver
                 world-class security with precision, discipline, and unwavering
                 commitment to your safety.
               </p>
-              <div className="flex flex-col sm:flex-row gap-6">
+              <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
                 <Link
                   to="/services"
-                  className="bg-accent text-accent-foreground px-8 sm:px-10 py-4 sm:py-5 font-black text-base sm:text-lg text-center rounded-xl hover:shadow-xl hover:shadow-accent/50 hover:-translate-y-0.5 transition-all duration-300 inline-block relative group overflow-hidden"
+                  className="bg-accent text-accent-foreground px-6 sm:px-10 py-3 sm:py-5 font-black text-sm sm:text-base md:text-lg text-center rounded-xl hover:shadow-xl hover:shadow-accent/50 hover:-translate-y-0.5 transition-all duration-300 inline-block relative group overflow-hidden"
                 >
                   <span className="relative z-10">Explore Services</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 translate-x-full group-hover:translate-x-0 transition-all duration-500"></div>
                 </Link>
                 <Link
                   to="/contact"
-                  className="border-3 border-accent text-accent px-8 sm:px-10 py-4 sm:py-5 font-black text-base sm:text-lg text-center rounded-xl hover:border-foreground hover:bg-accent/10 transition-all duration-300 inline-block relative after:absolute after:inset-0 after:border-3 after:border-accent after:rounded-xl after:scale-105 after:opacity-0 group-hover:after:scale-100 after:transition-all after:duration-300"
+                  className="border-3 border-accent text-accent px-6 sm:px-10 py-3 sm:py-5 font-black text-sm sm:text-base md:text-lg text-center rounded-xl hover:border-foreground hover:bg-accent/10 transition-all duration-300 inline-block relative after:absolute after:inset-0 after:border-3 after:border-accent after:rounded-xl after:scale-105 after:opacity-0 group-hover:after:scale-100 after:transition-all after:duration-300"
                 >
                   Request Consultation
                 </Link>
@@ -78,29 +78,29 @@ export default function Home() {
       </section>
 
       {/* Services Overview */}
-      <section className="py-28 md:py-40 bg-background transition-colors duration-300">
-        <div className="container mx-auto px-6">
+      <section className="py-16 sm:py-20 md:py-40 bg-background transition-colors duration-300">
+        <div className="container mx-auto px-4 sm:px-6">
           {/* Section Title with Visual Styling */}
-          <div className="mb-16 md:mb-20">
-            <div className="flex items-start gap-3 md:gap-4 mb-6 md:mb-8">
-              <div className="w-1.5 md:w-2 h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
-              <h2 className="text-3xl md:text-6xl font-black text-foreground leading-tight">
+          <div className="mb-10 sm:mb-16 md:mb-20">
+            <div className="flex items-start gap-2 sm:gap-3 md:gap-4 mb-4 sm:mb-6 md:mb-8">
+              <div className="w-1 sm:w-1.5 md:w-2 h-8 sm:h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
+              <h2 className="text-2xl sm:text-3xl md:text-6xl font-black text-foreground leading-tight">
                 Our Security Services
               </h2>
             </div>
-            <p className="text-sm md:text-xl font-bold text-muted-foreground ml-6 md:ml-8 max-w-2xl leading-relaxed">
+            <p className="text-xs sm:text-sm md:text-xl font-bold text-muted-foreground ml-4 sm:ml-6 md:ml-8 max-w-2xl leading-relaxed">
               Comprehensive solutions designed to protect what matters most to
               you
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-6 sm:mb-8">
             {/* Bodyguards Card - First */}
             <div
               className="bg-card text-foreground p-0 overflow-hidden relative group border border-border animate-slide-in-from-bottom transition-all duration-300"
               style={{ animationDelay: "100ms" }}
             >
-              <div className="relative overflow-hidden h-64 md:h-80">
+              <div className="relative overflow-hidden h-48 sm:h-56 md:h-80">
                 <img
                   src="https://images.pexels.com/photos/27517900/pexels-photo-27517900.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Elite bodyguard protection services"
@@ -111,17 +111,17 @@ export default function Home() {
                   to="/services"
                   className="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  <span className="bg-accent text-accent-foreground px-8 py-3 font-black text-lg rounded-lg hover:shadow-lg transition-all duration-300">
+                  <span className="bg-accent text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg rounded-lg hover:shadow-lg transition-all duration-300">
                     Learn More
                   </span>
                 </Link>
               </div>
-              <div className="relative z-10 p-8 md:p-10">
-                <Users className="w-12 h-12 mb-4 text-accent" />
-                <h3 className="text-2xl md:text-3xl font-black mb-4 leading-tight text-foreground">
+              <div className="relative z-10 p-5 sm:p-8 md:p-10">
+                <Users className="w-10 sm:w-12 h-10 sm:h-12 mb-3 sm:mb-4 text-accent" />
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-3 sm:mb-4 leading-tight text-foreground">
                   Elite Bodyguards
                 </h3>
-                <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
+                <p className="text-sm sm:text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
                   Our SSG-trained specialists deliver executive-level protection
                   with tactical expertise and discretion. Every bodyguard
                   undergoes rigorous military training and psychological
@@ -136,7 +136,7 @@ export default function Home() {
               className="bg-card text-foreground p-0 overflow-hidden relative group border border-border animate-slide-in-from-bottom transition-all duration-300"
               style={{ animationDelay: "200ms" }}
             >
-              <div className="relative overflow-hidden h-64 md:h-80">
+              <div className="relative overflow-hidden h-48 sm:h-56 md:h-80">
                 <img
                   src="https://images.pexels.com/photos/29656069/pexels-photo-29656069.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Professional security guards with tactical gear"
@@ -147,17 +147,17 @@ export default function Home() {
                   to="/services"
                   className="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  <span className="bg-accent text-accent-foreground px-8 py-3 font-black text-lg rounded-lg hover:shadow-lg transition-all duration-300">
+                  <span className="bg-accent text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg rounded-lg hover:shadow-lg transition-all duration-300">
                     Learn More
                   </span>
                 </Link>
               </div>
-              <div className="relative z-10 p-8 md:p-10">
-                <Shield className="w-12 h-12 mb-4 text-accent" />
-                <h3 className="text-2xl md:text-3xl font-black mb-4 leading-tight text-foreground">
+              <div className="relative z-10 p-5 sm:p-8 md:p-10">
+                <Shield className="w-10 sm:w-12 h-10 sm:h-12 mb-3 sm:mb-4 text-accent" />
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-3 sm:mb-4 leading-tight text-foreground">
                   Static Security Guards
                 </h3>
-                <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
+                <p className="text-sm sm:text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
                   Our vetted security professionals provide round-the-clock
                   on-site protection with military discipline and precision.
                   Each guard undergoes comprehensive background screening and
@@ -172,7 +172,7 @@ export default function Home() {
               className="bg-card text-foreground p-0 overflow-hidden relative group border border-border animate-slide-in-from-bottom transition-all duration-300"
               style={{ animationDelay: "300ms" }}
             >
-              <div className="relative overflow-hidden h-64 md:h-80">
+              <div className="relative overflow-hidden h-48 sm:h-56 md:h-80">
                 <img
                   src="https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Professional mobile escort security services"
@@ -183,17 +183,17 @@ export default function Home() {
                   to="/services"
                   className="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  <span className="bg-accent text-accent-foreground px-8 py-3 font-black text-lg rounded-lg hover:shadow-lg transition-all duration-300">
+                  <span className="bg-accent text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg rounded-lg hover:shadow-lg transition-all duration-300">
                     Learn More
                   </span>
                 </Link>
               </div>
-              <div className="relative z-10 p-8 md:p-10">
-                <Truck className="w-12 h-12 mb-4 text-accent" />
-                <h3 className="text-2xl md:text-3xl font-black mb-4 leading-tight text-foreground">
+              <div className="relative z-10 p-5 sm:p-8 md:p-10">
+                <Truck className="w-10 sm:w-12 h-10 sm:h-12 mb-3 sm:mb-4 text-accent" />
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-3 sm:mb-4 leading-tight text-foreground">
                   Mobile Escorts
                 </h3>
-                <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
+                <p className="text-sm sm:text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
                   Our mobile escort teams provide seamless protection during
                   transit and travel. We offer route planning, threat
                   assessment, and coordinated security response for safe and
@@ -208,7 +208,7 @@ export default function Home() {
               className="bg-card text-foreground p-0 overflow-hidden relative group border border-border animate-slide-in-from-bottom transition-all duration-300"
               style={{ animationDelay: "400ms" }}
             >
-              <div className="relative overflow-hidden h-64 md:h-80">
+              <div className="relative overflow-hidden h-48 sm:h-56 md:h-80">
                 <img
                   src="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Advanced security equipment and surveillance systems"
@@ -219,17 +219,17 @@ export default function Home() {
                   to="/services"
                   className="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  <span className="bg-accent text-accent-foreground px-8 py-3 font-black text-lg rounded-lg hover:shadow-lg transition-all duration-300">
+                  <span className="bg-accent text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg rounded-lg hover:shadow-lg transition-all duration-300">
                     Learn More
                   </span>
                 </Link>
               </div>
-              <div className="relative z-10 p-8 md:p-10">
-                <Lock className="w-12 h-12 mb-4 text-accent" />
-                <h3 className="text-2xl md:text-3xl font-black mb-4 leading-tight text-foreground">
+              <div className="relative z-10 p-5 sm:p-8 md:p-10">
+                <Lock className="w-10 sm:w-12 h-10 sm:h-12 mb-3 sm:mb-4 text-accent" />
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-3 sm:mb-4 leading-tight text-foreground">
                   Security Equipment
                 </h3>
-                <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
+                <p className="text-sm sm:text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
                   We deploy state-of-the-art surveillance, access control, and
                   security monitoring systems tailored to your facility. From
                   CCTV networks to integrated security platforms, our technology
@@ -243,7 +243,7 @@ export default function Home() {
       </section>
 
       {/* Value Proposition Section */}
-      <section className="relative overflow-hidden py-20 md:py-32 border-y border-border transition-colors duration-300">
+      <section className="relative overflow-hidden py-12 sm:py-16 md:py-32 border-y border-border transition-colors duration-300">
         <div className="absolute inset-0">
           <div
             className="absolute inset-0"
@@ -257,16 +257,16 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/85 to-background/40"></div>
         </div>
 
-        <div className="container mx-auto px-6 relative z-10">
+        <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center md:text-left">
-            <h2 className="text-3xl md:text-5xl font-black leading-tight mb-6 md:mb-8 text-foreground">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl font-black leading-tight mb-4 sm:mb-6 md:mb-8 text-foreground">
               Why Professional Security Matters
             </h2>
-            <p className="text-base md:text-xl font-bold opacity-95 leading-relaxed mb-6 text-foreground">
+            <p className="text-sm sm:text-base md:text-xl font-bold opacity-95 leading-relaxed mb-4 sm:mb-6 text-foreground">
               In a world where security has become critical, a personalized
               approach is key to ensuring you get the protection you deserve.
             </p>
-            <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-foreground">
+            <p className="text-sm sm:text-base md:text-lg font-bold opacity-90 leading-relaxed text-foreground">
               From static guards and elite bodyguards to mobile escorts and
               advanced security equipment, we provide comprehensive, tailored
               solutions for every security need backed by decades of expertise.
@@ -276,64 +276,64 @@ export default function Home() {
       </section>
 
       {/* Statistics Section */}
-      <section className="py-16 md:py-28 bg-background transition-colors duration-300">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+      <section className="py-12 sm:py-16 md:py-28 bg-background transition-colors duration-300">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
             {/* Experience Card */}
-            <div className="group relative bg-card border-2 border-accent text-foreground p-8 md:p-10 text-center hover:shadow-lg transition-all duration-300">
+            <div className="group relative bg-card border-2 border-accent text-foreground p-5 sm:p-8 md:p-10 text-center hover:shadow-lg transition-all duration-300">
               <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-40 h-32 md:w-56 md:h-40 bg-gradient-to-br from-accent to-yellow-500 mb-6 md:mb-8 shadow-md">
+                <div className="inline-flex items-center justify-center w-32 h-24 sm:w-40 sm:h-32 md:w-56 md:h-40 bg-gradient-to-br from-accent to-yellow-500 mb-4 sm:mb-6 md:mb-8 shadow-md">
                   <AnimatedCounter
                     targetNumber={30}
                     suffix="+"
                     duration={2000}
-                    className="text-5xl md:text-6xl font-black text-accent-foreground"
+                    className="text-4xl sm:text-5xl md:text-6xl font-black text-accent-foreground"
                   />
                 </div>
-                <p className="text-base md:text-lg font-black text-foreground">
+                <p className="text-sm sm:text-base md:text-lg font-black text-foreground">
                   Years of Experience
                 </p>
-                <p className="text-xs md:text-sm font-bold text-muted-foreground mt-2 md:mt-3">
+                <p className="text-xs font-bold text-muted-foreground mt-1 sm:mt-2 md:mt-3">
                   Protecting businesses since 1992
                 </p>
               </div>
             </div>
 
             {/* Personnel Card */}
-            <div className="group relative bg-card border-2 border-blue-500 text-foreground p-8 md:p-10 text-center hover:shadow-lg transition-all duration-300">
+            <div className="group relative bg-card border-2 border-blue-500 text-foreground p-5 sm:p-8 md:p-10 text-center hover:shadow-lg transition-all duration-300">
               <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-40 h-32 md:w-56 md:h-40 bg-gradient-to-br from-blue-500 to-cyan-500 mb-6 md:mb-8 shadow-md">
+                <div className="inline-flex items-center justify-center w-32 h-24 sm:w-40 sm:h-32 md:w-56 md:h-40 bg-gradient-to-br from-blue-500 to-cyan-500 mb-4 sm:mb-6 md:mb-8 shadow-md">
                   <AnimatedCounter
                     targetNumber={500}
                     suffix="+"
                     duration={2000}
-                    className="text-5xl md:text-6xl font-black text-white"
+                    className="text-4xl sm:text-5xl md:text-6xl font-black text-white"
                   />
                 </div>
-                <p className="text-base md:text-lg font-black text-foreground">
+                <p className="text-sm sm:text-base md:text-lg font-black text-foreground">
                   Trained Personnel
                 </p>
-                <p className="text-xs md:text-sm font-bold text-muted-foreground mt-2 md:mt-3">
+                <p className="text-xs font-bold text-muted-foreground mt-1 sm:mt-2 md:mt-3">
                   Elite security professionals
                 </p>
               </div>
             </div>
 
             {/* Clients Card */}
-            <div className="group relative bg-card border-2 border-slate-600 text-foreground p-8 md:p-10 text-center hover:shadow-lg transition-all duration-300">
+            <div className="group relative bg-card border-2 border-slate-600 text-foreground p-5 sm:p-8 md:p-10 text-center hover:shadow-lg transition-all duration-300">
               <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-40 h-32 md:w-56 md:h-40 bg-gradient-to-br from-slate-700 to-slate-600 mb-6 md:mb-8 shadow-md">
+                <div className="inline-flex items-center justify-center w-32 h-24 sm:w-40 sm:h-32 md:w-56 md:h-40 bg-gradient-to-br from-slate-700 to-slate-600 mb-4 sm:mb-6 md:mb-8 shadow-md">
                   <AnimatedCounter
                     targetNumber={100}
                     suffix="+"
                     duration={2000}
-                    className="text-5xl md:text-6xl font-black text-white"
+                    className="text-4xl sm:text-5xl md:text-6xl font-black text-white"
                   />
                 </div>
-                <p className="text-base md:text-lg font-black text-foreground">
+                <p className="text-sm sm:text-base md:text-lg font-black text-foreground">
                   Corporate Clients
                 </p>
-                <p className="text-xs md:text-sm font-bold text-muted-foreground mt-2 md:mt-3">
+                <p className="text-xs font-bold text-muted-foreground mt-1 sm:mt-2 md:mt-3">
                   Trusted by leading organizations
                 </p>
               </div>
@@ -343,22 +343,22 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us - Feature Grid */}
-      <section className="py-20 md:py-40 bg-background transition-colors duration-300">
-        <div className="container mx-auto px-6">
+      <section className="py-14 sm:py-20 md:py-40 bg-background transition-colors duration-300">
+        <div className="container mx-auto px-4 sm:px-6">
           {/* Section Title with Visual Styling */}
-          <div className="mb-16 md:mb-20">
-            <div className="flex items-start gap-3 md:gap-4 mb-6 md:mb-8">
-              <div className="w-1.5 md:w-2 h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
-              <h2 className="text-3xl md:text-6xl font-black text-foreground leading-tight">
+          <div className="mb-10 sm:mb-16 md:mb-20">
+            <div className="flex items-start gap-2 sm:gap-3 md:gap-4 mb-4 sm:mb-6 md:mb-8">
+              <div className="w-1 sm:w-1.5 md:w-2 h-8 sm:h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
+              <h2 className="text-2xl sm:text-3xl md:text-6xl font-black text-foreground leading-tight">
                 Why Choose Eagle
               </h2>
             </div>
-            <p className="text-sm md:text-xl font-bold text-muted-foreground ml-6 md:ml-8 max-w-2xl leading-relaxed">
+            <p className="text-xs sm:text-sm md:text-xl font-bold text-muted-foreground ml-4 sm:ml-6 md:ml-8 max-w-2xl leading-relaxed">
               Three decades of trusted security excellence
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 md:gap-8">
             {[
               {
                 icon: Award,
@@ -383,14 +383,14 @@ export default function Home() {
             ].map((item, i) => (
               <div
                 key={i}
-                className="bg-card border-2 border-border p-6 md:p-10 group hover:shadow-lg hover:bg-slate-800 transition-all duration-300 animate-slide-in-from-bottom"
+                className="bg-card border-2 border-border p-5 sm:p-6 md:p-10 group hover:shadow-lg hover:bg-slate-800 transition-all duration-300 animate-slide-in-from-bottom"
                 style={{ animationDelay: `${i * 100}ms` }}
               >
-                <item.icon className="w-12 md:w-16 h-12 md:h-16 text-accent mb-4 md:mb-6 transition-transform duration-300" />
-                <h3 className="text-xl md:text-3xl font-black text-foreground mb-3 md:mb-4 leading-tight group-hover:text-accent transition-colors duration-300">
+                <item.icon className="w-10 sm:w-12 md:w-16 h-10 sm:h-12 md:h-16 text-accent mb-3 sm:mb-4 md:mb-6 transition-transform duration-300" />
+                <h3 className="text-lg sm:text-xl md:text-3xl font-black text-foreground mb-2 sm:mb-3 md:mb-4 leading-tight group-hover:text-accent transition-colors duration-300">
                   {item.title}
                 </h3>
-                <p className="text-base md:text-lg font-bold text-muted-foreground leading-relaxed group-hover:text-yellow-300 transition-colors duration-300">
+                <p className="text-xs sm:text-sm md:text-lg font-bold text-muted-foreground leading-relaxed group-hover:text-yellow-300 transition-colors duration-300">
                   {item.desc}
                 </p>
               </div>
@@ -400,43 +400,43 @@ export default function Home() {
       </section>
 
       {/* Presence Section */}
-      <section className="py-20 md:py-48 bg-background transition-colors duration-300">
-        <div className="container mx-auto px-6">
+      <section className="py-14 sm:py-20 md:py-48 bg-background transition-colors duration-300">
+        <div className="container mx-auto px-4 sm:px-6">
           {/* Section Title with Visual Styling */}
-          <div className="mb-16 md:mb-24">
-            <div className="flex items-start gap-3 md:gap-4 mb-6 md:mb-8">
-              <div className="w-1.5 md:w-2 h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
-              <h2 className="text-3xl md:text-6xl font-black text-foreground leading-tight">
+          <div className="mb-10 sm:mb-16 md:mb-24">
+            <div className="flex items-start gap-2 sm:gap-3 md:gap-4 mb-4 sm:mb-6 md:mb-8">
+              <div className="w-1 sm:w-1.5 md:w-2 h-8 sm:h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
+              <h2 className="text-2xl sm:text-3xl md:text-6xl font-black text-foreground leading-tight">
                 National Presence
               </h2>
             </div>
-            <p className="text-sm md:text-xl font-bold text-muted-foreground ml-6 md:ml-8 max-w-2xl leading-relaxed">
+            <p className="text-xs sm:text-sm md:text-xl font-bold text-muted-foreground ml-4 sm:ml-6 md:ml-8 max-w-2xl leading-relaxed">
               Offices across Pakistan ensuring reliable coverage and local
               expertise
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-16">
             {/* Head Office */}
-            <div className="bg-gradient-to-br from-accent to-yellow-500 text-accent-foreground p-8 md:p-12 group hover:shadow-xl transition-all duration-300">
-              <p className="text-accent-foreground font-black text-xs uppercase tracking-widest mb-4 md:mb-6">
+            <div className="bg-gradient-to-br from-accent to-yellow-500 text-accent-foreground p-6 sm:p-8 md:p-12 group hover:shadow-xl transition-all duration-300">
+              <p className="text-accent-foreground font-black text-xs uppercase tracking-widest mb-3 sm:mb-4 md:mb-6">
                 Head Office
               </p>
-              <h3 className="text-5xl md:text-7xl font-black mb-6 md:mb-8 leading-tight">
+              <h3 className="text-3xl sm:text-4xl md:text-7xl font-black mb-4 sm:mb-6 md:mb-8 leading-tight">
                 Islamabad
               </h3>
-              <p className="text-base md:text-lg font-bold opacity-95 leading-relaxed">
+              <p className="text-sm sm:text-base md:text-lg font-bold opacity-95 leading-relaxed">
                 Central coordination and management hub
               </p>
             </div>
 
             {/* Regional Offices with City Buttons */}
             <div className="flex flex-col">
-              <div className="mb-8 md:mb-10">
-                <p className="text-blue-600 font-black text-xs uppercase tracking-widest mb-6 md:mb-8">
+              <div className="mb-6 sm:mb-8 md:mb-10">
+                <p className="text-blue-600 font-black text-xs uppercase tracking-widest mb-4 sm:mb-6 md:mb-8">
                   Regional Offices
                 </p>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-2 sm:gap-3 md:gap-4">
                   {[
                     "Lahore",
                     "Karachi",
@@ -447,9 +447,9 @@ export default function Home() {
                   ].map((city) => (
                     <div
                       key={city}
-                      className="bg-blue-600 text-white px-4 md:px-6 py-3 md:py-4 text-center hover:bg-gradient-to-br hover:from-accent hover:to-yellow-500 hover:text-accent-foreground transition-all duration-300"
+                      className="bg-blue-600 text-white px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-center hover:bg-gradient-to-br hover:from-accent hover:to-yellow-500 hover:text-accent-foreground transition-all duration-300"
                     >
-                      <p className="font-black text-base md:text-lg leading-tight">
+                      <p className="font-black text-xs sm:text-sm md:text-lg leading-tight">
                         {city}
                       </p>
                     </div>
@@ -457,14 +457,14 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="border-2 border-border p-8 md:p-10 group hover:border-accent hover:shadow-lg transition-all duration-300">
-                <p className="text-muted-foreground font-black text-xs uppercase tracking-widest mb-4 md:mb-6">
+              <div className="border-2 border-border p-5 sm:p-8 md:p-10 group hover:border-accent hover:shadow-lg transition-all duration-300">
+                <p className="text-muted-foreground font-black text-xs uppercase tracking-widest mb-3 sm:mb-4 md:mb-6">
                   National Coverage
                 </p>
-                <h3 className="text-3xl md:text-4xl font-black text-foreground mb-4 md:mb-6">
+                <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-foreground mb-3 sm:mb-4 md:mb-6">
                   Nationwide
                 </h3>
-                <div className="text-sm md:text-base font-bold text-muted-foreground space-y-2 md:space-y-3 leading-relaxed">
+                <div className="text-xs sm:text-sm md:text-base font-bold text-muted-foreground space-y-1 sm:space-y-2 md:space-y-3 leading-relaxed">
                   <p>✓ Including AJK</p>
                   <p>✓ Sub-offices in major cities</p>
                   <p>✓ 24/7 availability everywhere</p>
@@ -476,17 +476,17 @@ export default function Home() {
       </section>
 
       {/* Trusted By Section */}
-      <section className="py-16 md:py-32 bg-background transition-colors duration-300 border-y border-border">
-        <div className="container mx-auto px-6">
-          <div className="mb-12 md:mb-16 text-center">
-            <h2 className="text-4xl md:text-6xl font-black text-foreground leading-tight mb-6">
+      <section className="py-12 sm:py-16 md:py-32 bg-background transition-colors duration-300 border-y border-border">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="mb-8 sm:mb-12 md:mb-16 text-center">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-black text-foreground leading-tight mb-4 sm:mb-6">
               Our Clients
             </h2>
           </div>
-          <h3 className="text-xl md:text-2xl font-black mb-10 md:mb-12 leading-tight text-foreground text-center">
+          <h3 className="text-base sm:text-lg md:text-2xl font-black mb-6 sm:mb-10 md:mb-12 leading-tight text-foreground text-center">
             Trusted by Leading Organizations
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-6">
             {[
               "ARY News",
               "Meezan Bank",
