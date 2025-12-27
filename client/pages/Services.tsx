@@ -12,12 +12,12 @@ export default function Services() {
   return (
     <div className="bg-background transition-colors duration-300">
       {/* Hero Section */}
-      <section className="bg-background text-foreground py-24 md:py-32 transition-colors duration-300">
-        <div className="container mx-auto px-6">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black mb-6 text-foreground">
+      <section className="bg-background text-foreground py-16 sm:py-20 md:py-32 transition-colors duration-300">
+        <div className="container mx-auto px-4 sm:px-6">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-black mb-4 sm:mb-6 text-foreground">
             Our Security Services
           </h1>
-          <p className="text-base sm:text-lg md:text-xl opacity-90 max-w-2xl font-bold leading-relaxed text-muted-foreground">
+          <p className="text-sm sm:text-base md:text-xl opacity-90 max-w-2xl font-bold leading-relaxed text-muted-foreground">
             Comprehensive security solutions designed to protect what matters
             most to you
           </p>
@@ -25,27 +25,27 @@ export default function Services() {
       </section>
 
       {/* Services Overview */}
-      <section className="py-20 md:py-28 bg-background transition-colors duration-300">
-        <div className="container mx-auto px-6">
+      <section className="py-12 sm:py-16 md:py-28 bg-background transition-colors duration-300">
+        <div className="container mx-auto px-4 sm:px-6">
           {/* Static Security Guards */}
-          <div className="mb-16 md:mb-20 pb-12 md:pb-16 border-b border-border">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in">
+          <div className="mb-10 sm:mb-16 md:mb-20 pb-8 sm:pb-12 md:pb-16 border-b border-border">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center animate-fade-in">
               <div>
-                <div className="flex items-center gap-3 mb-6">
-                  <Shield className="w-10 md:w-12 h-10 md:h-12 text-accent flex-shrink-0" />
-                  <h2 className="text-3xl md:text-4xl font-black text-foreground">
+                <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
+                  <Shield className="w-9 sm:w-10 md:w-12 h-9 sm:h-10 md:h-12 text-accent flex-shrink-0" />
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-foreground">
                     Static Security Guard Services
                   </h2>
                 </div>
-                <p className="text-muted-foreground leading-relaxed mb-8 text-lg md:text-xl font-black">
+                <p className="text-muted-foreground leading-relaxed mb-6 sm:mb-8 text-sm sm:text-base md:text-xl font-black">
                   Eagle Security Guards draws its main pool of manpower from
                   armed forces of Pakistan and imparts training to meet critical
                   security requirements reliably and efficiently.
                 </p>
-                <ul className="space-y-5">
-                  <li className="flex gap-4 p-4 rounded-lg bg-accent/5 border-l-4 border-accent hover:bg-accent/10 transition-colors duration-300">
-                    <CheckCircle2 className="w-7 h-7 text-accent flex-shrink-0 mt-0" />
-                    <span className="text-foreground font-black text-base md:text-lg leading-snug">
+                <ul className="space-y-4 sm:space-y-5">
+                  <li className="flex gap-3 sm:gap-4 p-3 sm:p-4 rounded-lg bg-accent/5 border-l-4 border-accent hover:bg-accent/10 transition-colors duration-300">
+                    <CheckCircle2 className="w-6 sm:w-7 h-6 sm:h-7 text-accent flex-shrink-0 mt-0" />
+                    <span className="text-foreground font-black text-xs sm:text-sm md:text-lg leading-snug">
                       Comprehensive personal data screening and vetting process
                     </span>
                   </li>
