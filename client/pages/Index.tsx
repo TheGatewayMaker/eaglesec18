@@ -427,17 +427,17 @@ export default function Home() {
       </section>
 
       {/* Trusted By Section */}
-      <section className="py-12 sm:py-16 md:py-32 bg-gradient-to-b from-background via-background/95 to-background transition-colors duration-300 border-y border-border">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="mb-8 sm:mb-12 md:mb-16 text-center">
-            <h2 className="text-3xl sm:text-4xl md:text-6xl font-black leading-tight mb-4 sm:mb-6">
+      <section className="py-16 sm:py-20 md:py-32 bg-gradient-to-b from-background via-background/95 to-background transition-colors duration-300 border-y border-border">
+        <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
+          <div className="mb-12 md:mb-16 text-center">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-black leading-tight mb-4 md:mb-6">
               Our Clients
             </h2>
+            <p className="text-base md:text-lg font-bold text-muted-foreground">
+              Trusted by Leading Organizations
+            </p>
           </div>
-          <h3 className="text-base sm:text-lg md:text-2xl font-black mb-6 sm:mb-10 md:mb-12 leading-tight text-foreground text-center">
-            Trusted by Leading Organizations
-          </h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
             {[
               "ARY News",
               "Meezan Bank",
@@ -452,9 +452,9 @@ export default function Home() {
             ].map((client) => (
               <div
                 key={client}
-                className="aspect-square border border-border/60 p-4 md:p-6 flex items-center justify-center text-center hover:bg-accent hover:text-accent-foreground hover:shadow-2xl hover:border-accent transition-all duration-300 cursor-pointer bg-card"
+                className="aspect-square border border-border bg-card p-4 md:p-6 flex items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:border-accent"
               >
-                <p className="font-black text-xs md:text-base leading-tight text-foreground">
+                <p className="font-black text-xs md:text-sm leading-tight text-foreground">
                   {client}
                 </p>
               </div>
