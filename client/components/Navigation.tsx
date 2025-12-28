@@ -26,13 +26,13 @@ export default function Navigation() {
             <img
               src="https://i.ibb.co/s954vR34/eaglesecurityoriginallogo-1-copy.png"
               alt="Eagle Security Guards Logo"
-              className="h-12 w-12 md:h-16 md:w-16"
+              className="h-14 w-14 md:h-20 md:w-20"
             />
             <div className="flex flex-col gap-1">
-              <span className="text-xl md:text-2xl font-black text-foreground">
+              <span className="text-2xl md:text-3xl font-black text-foreground">
                 Eagle
               </span>
-              <span className="text-xs font-black tracking-widest text-accent">
+              <span className="text-sm font-black tracking-widest text-accent">
                 SECURITY GUARDS
               </span>
             </div>
