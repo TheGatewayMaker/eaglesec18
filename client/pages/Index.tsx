@@ -507,7 +507,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="border-2 border-pk-green-main/30 p-6 md:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer group bg-gradient-to-br from-background to-background/80 hover:!bg-black" style={{"--tw-gradient-from": "#000", "--tw-gradient-to": "#000"} as React.CSSProperties}>
+              <div className="border-2 border-pk-green-main/30 bg-gradient-to-br from-background to-background/80 p-6 md:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer group" style={{ backgroundColor: 'inherit' }} onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#000000'; e.currentTarget.style.backgroundImage = 'none'; }} onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'inherit'; e.currentTarget.style.backgroundImage = 'linear-gradient(to bottom right, var(--tw-gradient-from), var(--tw-gradient-to))'; }}>
                 <p className="text-pk-green-main font-black text-xs uppercase tracking-widest mb-4 md:mb-6 group-hover:text-white transition-colors duration-300">
                   National Coverage
                 </p>
