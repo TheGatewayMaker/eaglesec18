@@ -537,11 +537,11 @@ export default function Home() {
             </div>
 
             {/* Right Side - Pakistan Map */}
-            <div className="flex items-center justify-end pr-0 md:pr-8">
+            <div className="flex items-center justify-end pl-0 md:pl-6">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Facfe06c5cde64b46837eb142f7cf7313%2F2569c5f933e445229e02928b632df203?format=webp&width=800"
                 alt="Pakistan map showing Eagle Security locations"
-                className="w-auto h-auto max-w-none"
+                className="w-full h-auto"
               />
             </div>
           </div>
