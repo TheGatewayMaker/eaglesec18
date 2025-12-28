@@ -539,7 +539,7 @@ export default function Home() {
         <div className="container mx-auto px-0 sm:px-6 w-full">
           <div className="mb-12 md:mb-16 text-center px-4 sm:px-0">
             <h2 className="text-3xl sm:text-4xl md:text-6xl font-black leading-tight mb-4 md:mb-6">
-              Our Clients
+              Our Trusted Clients
             </h2>
             <p className="text-base md:text-lg font-bold text-muted-foreground">
               Trusted by Leading Organizations
