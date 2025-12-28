@@ -28,7 +28,7 @@ export default function CompanyWiseDeployments() {
         </div>
 
         {/* Professional Table Layout */}
-        <div className="bg-card border border-border overflow-hidden">
+        <div className="bg-card border border-border overflow-hidden mx-4 sm:mx-0">
           {/* Header Row */}
           <div className="grid grid-cols-3 gap-4 bg-pk-green-main text-white px-6 md:px-8 py-4 md:py-5 font-black">
             <div className="text-base md:text-lg">Organization</div>
