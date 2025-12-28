@@ -469,14 +469,27 @@ export default function Home() {
             {/* Left Side - Cities and Offices */}
             <div className="flex flex-col space-y-8 md:space-y-10">
               {/* Head Office */}
-              <div className="bg-gradient-to-br from-pk-green-main to-[#2d6b3d] text-white p-8 md:p-12 transition-all duration-300 hover:shadow-lg hover:bg-white hover:text-foreground group cursor-pointer border border-pk-green-main/20">
-                <p className="font-black text-xs uppercase tracking-widest mb-4 md:mb-6 group-hover:text-foreground transition-colors duration-300">
-                  Head Office
-                </p>
-                <h3 className="text-4xl md:text-6xl font-black mb-6 md:mb-8 leading-tight group-hover:text-foreground transition-colors duration-300">
+              <div className="bg-gradient-to-br from-pk-green-main to-[#2d6b3d] text-white p-8 md:p-12 border border-pk-green-main/20 flex flex-col">
+                <div className="flex justify-between items-center mb-4 md:mb-6 -mt-4 -mr-2">
+                  <p className="font-black text-xs uppercase tracking-widest text-white">
+                    Head Office
+                  </p>
+                  <button
+                    onClick={() => {
+                      const element = document.getElementById(
+                        "head-office-location",
+                      );
+                      element?.scrollIntoView({ behavior: "smooth" });
+                    }}
+                    className="text-blue-300 font-black text-sm md:text-base hover:text-blue-200 transition-colors duration-300"
+                  >
+                    Get Directions
+                  </button>
+                </div>
+                <h3 className="text-4xl md:text-6xl font-black mb-6 md:mb-8 leading-tight text-white">
                   Islamabad
                 </h3>
-                <p className="text-base md:text-lg font-black group-hover:text-foreground transition-colors duration-300 leading-relaxed">
+                <p className="text-base md:text-lg font-black text-white leading-relaxed">
                   Central coordination and management hub
                 </p>
               </div>
@@ -508,7 +521,7 @@ export default function Home() {
               </div>
 
               <div
-                className="border-2 border-pk-green-main/30 bg-gradient-to-br from-background to-background/80 p-6 md:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer group hover:bg-black"
+                className="border-2 border-pk-green-main/30 bg-gradient-to-br from-background to-background/80 p-6 md:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer group hover:bg-gradient-to-br hover:from-black hover:to-black/80"
                 style={{}}
               >
                 <p className="text-pk-green-main font-black text-xs uppercase tracking-widest mb-4 md:mb-6 group-hover:text-white transition-colors duration-300">
@@ -526,11 +539,11 @@ export default function Home() {
             </div>
 
             {/* Right Side - Pakistan Map */}
-            <div className="flex items-center justify-end pl-4 md:pl-16">
+            <div className="flex items-center justify-end md:ml-20">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Facfe06c5cde64b46837eb142f7cf7313%2F2569c5f933e445229e02928b632df203?format=webp&width=800"
                 alt="Pakistan map showing Eagle Security locations"
-                className="w-full h-auto max-w-2xl"
+                className="w-full h-auto md:scale-110"
               />
             </div>
           </div>
@@ -645,8 +658,11 @@ export default function Home() {
       </section>
 
       {/* Location Section with Google Maps */}
-      <section className="py-14 md:py-28 bg-gradient-to-b from-background/98 to-background transition-colors duration-300">
-        <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
+      <section
+        id="head-office-location"
+        className="py-14 md:py-28 bg-gradient-to-b from-background/98 to-background transition-colors duration-300"
+      >
+        <div className="container mx-auto px-0 sm:px-6 w-full">
           <div className="mb-12 md:mb-16">
             <div className="flex items-center gap-3 md:gap-4 mb-4 md:mb-6">
               <div className="w-1 md:w-1.5 h-10 md:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
